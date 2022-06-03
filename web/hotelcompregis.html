@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+        <title>Hotel Company Register</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<style>
+body {
+  background-image: url('img/hotel.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<body>
+    <p></p>
+    <h1 style="text-align:center; color: #00008B;">WELCOME TO TOURING WITH US.COM</h1>
+	<div class="box">
+	
+		<div class="inner-box">
+		
+		<form action="hotelcompregis" method="post">
+		<h2>Hotel Company SignUp</h2>
+		 
+		<input type="text" name="hname" placeholder="Comapny Name" required/>
+         	<input type="email" name="hemail" placeholder="Comapany Email Address" required/>
+            	<input type="password" name="hpassword" placeholder="Password" required/>
+                <input type="text" name="hregisno" placeholder="Enter Company's Registration No." required/>
+		<p>Security Questions</p>
+		<select class="questions" name="hsecques">
+			<option value="company-start">When did the company start? </option>
+			<option value="ceo-name">What is the name of your CEO? </option>
+			</select>
+			</div>
+			<div>
+			<textarea class="change" name="hanswer" rows="6" cols="10"></textarea>
+			</div>
+			<div class="change1">
+			<input type="checkbox"  value="accept"> I accept to terms and Conditions</input>
+			</div>
+
+		<input type="submit" value="SignUp" />
+		
+		<p style="text-align:center;" >
+				<span>Already Have an Account? </span><a class="link" href="hotelcomplogin.html">Sign In</a>
+		</p>
+		
+		</form>
+		
+		</div>
+		
+	</div>
+	
+</body>
+</html>

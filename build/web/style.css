@@ -1,0 +1,65 @@
+*{
+	padding:0px;
+	color:#808080;
+	font-family:arial;
+	box-sizing:border-box;
+	margin:auto;
+}
+body{
+	background-color: #27ed00;
+}
+a{text-decoration:none;font-weight:5000;}
+.link{color:#00aced;}
+p{margin:5px 0px;}
+.box{
+	width:400px;
+	height:auto;
+	margin-top: 250px;
+	margin-left: auto;
+	margin-right: auto;
+margin-bottom: 300px;
+	background-color:white;
+}
+
+
+.inner-box{
+	padding:20px;
+}
+.box h1,h2,h3,h4,h5,h6{
+	text-align:center;
+	margin:5px 0px;
+
+}
+.forgot{
+	float:right;
+}
+input[type="text"],input[type="submit"],input[type="password"],input[type="email"]{
+	width:100%;
+	padding:10px;
+	margin:10px 0px;
+	border:2px solid #c0c0c0;
+}
+input[type="submit"]{
+	border:1px solid #3e983b;
+	background-color:#00aced;
+	color:white;
+	font-size:16px;
+	font-weight:600;
+	cursor:pointer;
+}
+input[type="reset"]{
+	border:1px solid #3e983b;
+	background-color:#00aced;
+	color:white;
+	font-size:16px;
+	font-weight:600;
+	cursor:pointer;
+}
+.change,.change1{
+	
+	
+	width:300px;
+
+margin-left:20px;
+margin-right:auto;
+}

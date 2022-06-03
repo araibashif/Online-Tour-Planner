@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touring.com</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style (1).css">
+
+</head>
+<style>
+body {
+  background-image: url('img/login.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<body>
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo"><span>T</span>ouring.com</a>
+
+    <nav class="navbar">
+        <a href="flighthome.html">Home</a>
+        <a href="addflight.html">Add Flights</a>
+        <a href="viewflights"?f_id="">View All Flights</a>
+        <a href="viewbookingsflight"?f_nm="fname">View bookings</a>
+        <a href="viewuserfeedback"?id="">User feedback</a>
+        <a href=viewcommission>Grant Commission</a>
+        <a href="logout">Logout</a>
+    </nav>
+</header>
+    <link rel="stylesheet" href="style.css" />
+<div class="box">
+    <div class="inner-box">
+        <form method ="get" action ="addflight">
+            Flight Name: <input type="text" name="fnm"><br> <br>
+            Flight No: <input type="text" name="fno"><br><br>
+            Seats Available: <input type="text" name="fs"><br><bR>
+            Source:
+             <select name="source">
+                 <option value="mumbai">Mumbai</option>
+                 <option value="kolkata">Kolkata</option>
+                 <option value="hydrabad">Hydrabad</option>
+                 <option value="chennai">Chennai</option>
+             </select><br><br>
+            Destination:
+             <select name="destination">
+                 <option value="kolkata">Kolkata</option>
+                 <option value="mumbai">Mumbai</option>
+                 <option value="hydrabad">Hydrabad</option>
+                 <option value="chennai">Chennai</option>
+             </select><br><br>
+           
+            <br><bR>
+            <input type="submit" value="submit">
+          <br>
+        </form>
+        </div>
+</div>
+
+<section class="footer">
+
+    <div class="box-container">
+        <h1 class="credit"> created by <span> TEAM FLYING WINGS </span> | all rights reserved! </h1>
+
+</section>
+</body>
+</html>
